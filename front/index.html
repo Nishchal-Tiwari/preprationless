@@ -81,7 +81,7 @@
                     console.log(res)
                     if (res == "logged") {
 
-                        window.location.replace('http://localhost:5501/front/main.html')
+                        window.location.replace('http://localhost:3000/main.html')
                     }
 
 
@@ -90,12 +90,7 @@
         }
 
 
-        async function getpdgbycollege(college) {
 
-            const date = await fetch('https://localhost:3000/' + college)
-            console.log(data)
-
-        }
 
 
 
@@ -129,7 +124,7 @@
             }).then(d => d.text()).then(s => {
                 console.log(s)
                 if (s == "sucess") {
-                    window.location.replace("http://localhost:5501/front/main.html");
+                    window.location.replace("http://localhost:3000/main.html");
                 }
             })
 

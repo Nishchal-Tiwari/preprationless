@@ -32,6 +32,6 @@ app.use('/profile', profile)
 
 app.get('/logout', (r, rs) => {
     r.session.destroy()
-    rs.redirect("http://localhost:5501/login.html")
+    rs.redirect("http://localhost:3000")
 })
 app.listen(process.env.port || '3000', () => console.log('server started'))
