@@ -36,7 +36,8 @@ Thereby we came up with a solution to provide them with a single portal for what
 
 <!----------------------------------{ Links }--------------------------------->
 
-[site]: https://github.com/Nishchal-Tiwari/preprationless.git
+[site]: https://www.preprationless.study
+
 
 <!--------------------------------{ source code }------------------------------->
 
